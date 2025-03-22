@@ -1,5 +1,5 @@
 import type { Config } from 'tailwindcss';
-import { lusitana } from './app/ui/font';
+import { lusitana } from './app/ui/fonts';
 // import {inter, lusitana } from './app/ui/font';
 
 const config: Config = {
