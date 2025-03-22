@@ -1,4 +1,6 @@
 import type { Config } from 'tailwindcss';
+import { lusitana } from './app/ui/font';
+// import {inter, lusitana } from './app/ui/font';
 
 const config: Config = {
   content: [
@@ -10,6 +12,10 @@ const config: Config = {
     extend: {
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',
+      },
+      fontFamily: {
+        inter: `var(--font-inter)`,
+        lusitana: 'var(--font-lusitana)',
       },
       colors: {
         blue: {
