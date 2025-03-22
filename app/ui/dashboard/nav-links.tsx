@@ -37,7 +37,7 @@ export default function NavLinks() {
               "active:bg-sky-950/10 active:text-blue-500 ",
               "transition-colors",
               {
-                'bg-sky-100 text-blue-600' : pathname=== link.href,
+                'bg-sky-100 text-blue-600' : pathname=== link.href, 
               },
             )}
           >
